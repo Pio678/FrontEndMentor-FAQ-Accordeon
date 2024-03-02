@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap");
+
+.faq-container {
+  background-color: azure;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  min-width: 29rem;
+  max-width: 45rem;
+  justify-self: center;
+  align-self: center;
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 0.8rem;
+  font-family: "work Sans";
+}
+
+.faq-header {
+  display: flex;
+  align-items: center;
+  color: var(--dark-purple);
+  margin: 0 0 2rem 0;
+  font-size: 3.4rem;
+}
+
+.star-icon {
+  height: 2.3rem;
+  margin-right: 2rem;
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2.5rem;
+  color: var(--dark-purple);
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.faq-answer {
+  color: var(--grayish-purple);
+  font-size: 1.3rem;
+  padding: 1rem 0 2rem 0;
+}
+
+.question-separator {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
