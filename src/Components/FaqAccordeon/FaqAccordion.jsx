@@ -55,9 +55,17 @@ export default function FaqAccordion() {
     return (
       <>
         <div className="question-container" key={FaqQuestion.id}>
-          <p>{FaqQuestion.question}</p>
+          <p
+            className="question"
+            onClick={() => {
+              toogleQuestion(FaqQuestion.id);
+            }}
+          >
+            {FaqQuestion.question}
+          </p>
 
           <img
+            className="faq-toogle-button"
             src={FaqQuestion.isActive ? iconMinusImg : iconPlusImg}
             onClick={() => {
               toogleQuestion(FaqQuestion.id);
