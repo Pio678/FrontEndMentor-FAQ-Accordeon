@@ -8,11 +8,11 @@
 }
 
 .faq-container {
-  background-color: azure;
+  background-color: white;
   grid-column: 1/2;
   grid-row: 1/4;
   min-width: 29rem;
-  max-width: 45rem;
+  max-width: 50rem;
   justify-self: center;
   align-self: center;
   padding: 2rem;
@@ -25,12 +25,12 @@
   display: flex;
   align-items: center;
   color: var(--dark-purple);
-  margin: 0 0 2rem 0;
-  font-size: 3.4rem;
+  margin: 1rem 0 1rem 0;
+  font-size: 5rem;
 }
 
 .star-icon {
-  height: 2.3rem;
+  height: 3rem;
   margin-right: 2rem;
 }
 
@@ -40,7 +40,7 @@
   align-items: center;
   column-gap: 2.5rem;
 
-  padding: 1rem 0 1rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .question {
